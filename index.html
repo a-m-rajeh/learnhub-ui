@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind - Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50">
+
+    <header class="relative mx-auto max-w-md overflow-hidden bg-indigo-500 px-5 pb-10 pt-8 text-white  ">
+        <h2 class="text-2xl font-bold">LearnHub</h2>
+        <p class="mt-2 text-sm text-indigo-100 ">Discover new things every day</p>
+        <div class="absolute -bottom-5 -left-5 h-12 w-[110%] rotate-2 rounded-t-3xl bg-slate-50  "></div>
+    </header>
+
+    <main class="mx-auto max-w-md p-5 ">
+        <section>
+            <h2 class="mb-5 text-lg font-bold text-slate-500 ">Learning Categories</h2>
+            <div class="grid grid-cols-2 gap-3 ">
+                <button class="rounded-xl bg-white p-4 text-left border">
+                    <span class="text-2xl  ">💻</span>
+                    <h3 class="mt-3 font-semibold text-slate-800 ">Programming</h3>
+                    <p class="mt-1 text-xs text-slate-500 ">Learn to code</p>
+                </button>
+
+                <button class="rounded-xl p-4 text-left bg-white border">
+                    <span class="text-2xl">🌍</span>
+                    <h3 class="mt-3 font-semibold text-slate-800">Languages</h3>
+                    <p class="mt-1 text-xs text-slate-500">Learn new language</p>
+                </button>
+
+                <button class="border bg-white rounded-xl text-left p-4 ">
+                    <span class="text-2xl">🎨</span>
+                    <h3 class="mt-3 font-semibold text-slate-800">Design</h3>
+                    <p class="mt-1 text-xs text-slate-500 ">Explore creativity</p>
+                </button>
+
+                <button class="bg-white border rounded-xl text-left p-4 ">
+                    <span class="text-2xl">🧠</span>
+                    <h3 class="mt-3 font-semibold text-slate-800">Knowledge</h3>
+                    <p class="mt-1 text-xs text-slate-500">Discover new ideas</p>
+                </button>
+
+            </div>
+        </section>
+
+        <section class="mt-7">
+            <h2 class="mb-3 text-lg font-semibold text-slate-500 ">Lesson of the Day</h2>
+            <div class="rounded-xl border bg-white p-4">
+                <div class="flex items-center gap-3 ">
+                    <div
+                        class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-2xl  border">
+                        💡</div>
+                    <h3 class="font-semibold text-slate-800 ">How does the Internet work?</h3>
+                    <p class="mt-1 text-sm text-slate-500 ">A short lesson - 5 minutes</p>
+                </div>
+            </div>
+
+            <button
+                class="mt-4 w-full rounded-lg bg-indigo-600 py-5 text-white font-semibold transition hover:bg-indigo-700  border">Start
+                Learing</button>
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
